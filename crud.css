@@ -1,0 +1,72 @@
+.container1{
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(151, 153, 194);
+    border-radius: 10px;
+   }
+   input {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   }
+   input[type=submit] {
+    width: 20%;
+    background-color: #7a78f8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    float: left;
+}
+.col-1{
+ float: left;
+ width: 30%;
+ margin-top: 5px;
+}
+.col-2{
+ float: left;
+ width: 70%;
+ margin-top: 5px;
+}
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+#button-1{
+ background-color: rgb(241, 44, 44);
+ padding-right: 10px;
+}
+#button-2{
+ background-color: rgb(90, 241, 44);
+ padding-right: 10px;
+}
+table{ border-collapse: collapse;}
+td {
+ border: 1px solid #dddddd;
+ padding-right: 10px; 
+}
+.hide{ display: none;}
+label.validation-error{
+ color: rgb(248, 130, 5);
+ margin-left: 5px;
+}
+a{
+ cursor: pointer;
+ color: rgb(63, 6, 252);
+ margin-right: 4px;
+}
+/* Responsive layout - when screen size is 1100 at max*/
+@media screen and (max-width: 1100px) {
+ .container1 { width: 60%; margin-top: 0;}
+ .col-1{ width: 30%;}
+ .col-2{ width: 60%;}
+}
+/* Responsive layout - when screen size is 800 at max*/
+@media screen and (max-width: 800px) {
+ .container1 { width: 80%; margin-top: 0;}
+ .col-1, .col-2{ width: 100%;}
+}
+.hide{ display: none;}
